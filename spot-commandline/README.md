@@ -1,4 +1,4 @@
-# Directions
+w# Directions
 
 ## Setup
 Yarn is the recommended package manager, but npm will also work
@@ -36,6 +36,14 @@ node bin/predict.js us-east-1 us-east-1d x1e.8xlarge 20180101-20180405 --conf 0.
 **run an experiment**
 ```
 node bin/experiment.js us-east-1 us-east-1d x1e.8xlarge --binpath ../bin --conf 0.01 --quant 0.6 --cycleCount 200 --duration 4
+```
+
+**other useful commands**
+
+search the results set for termination counts by file
+```
+cd results
+ack "\"terminations\""
 ```
 
 # Good Experiment Candidates

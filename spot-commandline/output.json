@@ -1,10 +1,9 @@
 {
-  "errors": [],
   "results": {
-    "terminations": 42,
+    "terminations": 43,
     "samples": [
       {
-        "time": "2018-02-07T13:02:07.000Z",
+        "time": "2018-02-08T02:17:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -13,37 +12,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-07T15:49:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016,
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-07T16:37:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016,
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-07T17:35:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016,
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-07T20:03:07.000Z",
+        "time": "2018-02-08T04:48:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -52,7 +21,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-08T12:16:07.000Z",
+        "time": "2018-02-08T11:46:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -61,7 +30,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-08T17:04:07.000Z",
+        "time": "2018-02-08T17:25:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -81,124 +50,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-08T23:37:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-09T17:18:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-09T18:09:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-10T04:12:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-10T05:00:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-10T08:36:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-10T10:55:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-10T12:17:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-10T14:01:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-11T07:08:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-11T09:41:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-11T20:19:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-12T01:27:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-12T06:42:07.000Z",
+        "time": "2018-02-08T21:24:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -208,16 +60,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-13T07:04:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-13T08:25:07.000Z",
+        "time": "2018-02-08T22:24:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -227,7 +70,34 @@
         "terminated": false
       },
       {
-        "time": "2018-02-13T10:09:07.000Z",
+        "time": "2018-02-09T04:54:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-09T08:34:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-09T09:31:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-09T11:15:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -237,115 +107,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-13T13:26:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-13T17:31:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-13T17:45:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-13T19:40:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-13T23:24:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-14T02:03:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-14T20:02:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-15T06:14:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-15T11:07:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-15T11:34:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-15T12:00:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-15T14:14:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-15T23:35:07.000Z",
+        "time": "2018-02-10T01:47:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -355,25 +117,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-16T05:43:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-16T17:28:07.000Z",
-        "duration": 4,
-        "bidprice": 2.0017,
-        "prices": [
-          2.0016
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-02-17T06:56:07.000Z",
+        "time": "2018-02-10T02:49:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -383,7 +127,25 @@
         "terminated": false
       },
       {
-        "time": "2018-02-17T06:58:07.000Z",
+        "time": "2018-02-10T16:06:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-10T23:26:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-11T02:27:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -393,7 +155,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-17T11:37:07.000Z",
+        "time": "2018-02-11T12:14:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -402,7 +164,37 @@
         "terminated": false
       },
       {
-        "time": "2018-02-17T14:34:07.000Z",
+        "time": "2018-02-12T04:03:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016,
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-12T08:11:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016,
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-12T11:19:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016,
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-12T12:15:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -411,7 +203,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-17T22:09:07.000Z",
+        "time": "2018-02-12T22:45:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -420,7 +212,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-17T23:58:07.000Z",
+        "time": "2018-02-13T01:52:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -429,7 +221,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-18T00:04:07.000Z",
+        "time": "2018-02-13T05:50:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -438,7 +230,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-19T01:19:07.000Z",
+        "time": "2018-02-13T15:30:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -447,7 +239,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-19T07:40:07.000Z",
+        "time": "2018-02-13T19:52:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -456,7 +248,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-19T09:57:07.000Z",
+        "time": "2018-02-13T20:29:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -465,7 +257,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-20T00:24:07.000Z",
+        "time": "2018-02-14T05:27:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -474,7 +266,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-20T01:31:07.000Z",
+        "time": "2018-02-15T02:54:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -483,7 +275,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-20T04:14:07.000Z",
+        "time": "2018-02-15T12:51:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -492,7 +284,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-20T04:41:07.000Z",
+        "time": "2018-02-15T13:35:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -501,7 +293,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-20T22:06:07.000Z",
+        "time": "2018-02-15T20:18:07.000Z",
         "duration": 4,
         "bidprice": 2.0017,
         "prices": [
@@ -510,7 +302,164 @@
         "terminated": false
       },
       {
-        "time": "2018-02-21T14:38:07.000Z",
+        "time": "2018-02-15T21:40:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-16T00:16:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016,
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-16T05:55:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-17T01:15:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016,
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-17T14:49:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-17T21:11:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-18T11:47:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016,
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-18T16:48:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-18T21:40:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-19T03:57:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016,
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-19T07:30:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-19T09:01:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-19T13:15:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-19T19:01:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-19T21:08:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-20T19:57:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0017,
+        "prices": [
+          2.0016
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-02-21T10:17:07.000Z",
+        "duration": 4,
+        "bidprice": 2.0814,
+        "prices": [
+          2.1629
+        ],
+        "terminated": true
+      },
+      {
+        "time": "2018-02-21T11:57:07.000Z",
         "duration": 4,
         "bidprice": 2.0814,
         "prices": [
@@ -520,36 +469,7 @@
         "terminated": true
       },
       {
-        "time": "2018-02-21T16:23:07.000Z",
-        "duration": 4,
-        "bidprice": 2.163,
-        "prices": [
-          2.2018,
-          2.275
-        ],
-        "terminated": true
-      },
-      {
-        "time": "2018-02-21T18:51:07.000Z",
-        "duration": 4,
-        "bidprice": 2.163,
-        "prices": [
-          2.2018,
-          2.275
-        ],
-        "terminated": true
-      },
-      {
-        "time": "2018-02-21T21:44:07.000Z",
-        "duration": 4,
-        "bidprice": 2.2019,
-        "prices": [
-          2.275
-        ],
-        "terminated": true
-      },
-      {
-        "time": "2018-02-21T23:22:07.000Z",
+        "time": "2018-02-22T00:26:07.000Z",
         "duration": 4,
         "bidprice": 2.2019,
         "prices": [
@@ -559,16 +479,17 @@
         "terminated": true
       },
       {
-        "time": "2018-02-22T02:26:07.000Z",
+        "time": "2018-02-22T01:01:07.000Z",
         "duration": 4,
-        "bidprice": 2.2751,
+        "bidprice": 2.2019,
         "prices": [
+          2.275,
           2.2894
         ],
         "terminated": true
       },
       {
-        "time": "2018-02-22T04:09:07.000Z",
+        "time": "2018-02-22T05:48:07.000Z",
         "duration": 4,
         "bidprice": 2.2751,
         "prices": [
@@ -578,64 +499,27 @@
         "terminated": true
       },
       {
-        "time": "2018-02-22T04:34:07.000Z",
+        "time": "2018-02-22T14:34:07.000Z",
         "duration": 4,
-        "bidprice": 2.2751,
+        "bidprice": 2.3793,
         "prices": [
-          2.2894,
-          2.3792
-        ],
-        "terminated": true
-      },
-      {
-        "time": "2018-02-22T04:44:07.000Z",
-        "duration": 4,
-        "bidprice": 2.2751,
-        "prices": [
-          2.2894,
-          2.3792
-        ],
-        "terminated": true
-      },
-      {
-        "time": "2018-02-22T19:11:07.000Z",
-        "duration": 4,
-        "bidprice": 2.422,
-        "prices": [
+          2.4219,
           2.4984
         ],
         "terminated": true
       },
       {
-        "time": "2018-02-22T23:45:07.000Z",
-        "duration": 4,
-        "bidprice": 2.422,
-        "prices": [
-          2.4984,
-          2.5184
-        ],
-        "terminated": true
-      },
-      {
-        "time": "2018-02-23T00:22:07.000Z",
+        "time": "2018-02-23T06:27:07.000Z",
         "duration": 4,
         "bidprice": 2.4985,
         "prices": [
-          2.5184
+          2.5184,
+          2.5993
         ],
         "terminated": true
       },
       {
-        "time": "2018-02-23T04:13:07.000Z",
-        "duration": 4,
-        "bidprice": 2.4985,
-        "prices": [
-          2.5184
-        ],
-        "terminated": true
-      },
-      {
-        "time": "2018-02-23T17:38:07.000Z",
+        "time": "2018-02-23T17:25:07.000Z",
         "duration": 4,
         "bidprice": 2.5994,
         "prices": [
@@ -645,26 +529,7 @@
         "terminated": true
       },
       {
-        "time": "2018-02-23T19:59:07.000Z",
-        "duration": 4,
-        "bidprice": 2.6984,
-        "prices": [
-          2.7702
-        ],
-        "terminated": true
-      },
-      {
-        "time": "2018-02-23T23:25:07.000Z",
-        "duration": 4,
-        "bidprice": 2.6984,
-        "prices": [
-          2.7702,
-          2.8592
-        ],
-        "terminated": true
-      },
-      {
-        "time": "2018-02-24T03:58:07.000Z",
+        "time": "2018-02-24T04:47:07.000Z",
         "duration": 4,
         "bidprice": 2.7703,
         "prices": [
@@ -673,17 +538,68 @@
         "terminated": true
       },
       {
-        "time": "2018-02-24T11:22:07.000Z",
+        "time": "2018-02-24T09:33:07.000Z",
         "duration": 4,
-        "bidprice": 2.8593,
+        "bidprice": 2.7703,
         "prices": [
+          2.8592,
           2.9398,
           2.9398
         ],
         "terminated": true
       },
       {
-        "time": "2018-02-25T11:46:07.000Z",
+        "time": "2018-02-24T14:33:07.000Z",
+        "duration": 4,
+        "bidprice": 2.8593,
+        "prices": [
+          2.9398,
+          3.0323
+        ],
+        "terminated": true
+      },
+      {
+        "time": "2018-02-25T00:00:07.000Z",
+        "duration": 4,
+        "bidprice": 3.0324,
+        "prices": [
+          3.1284,
+          3.1284,
+          3.2338
+        ],
+        "terminated": true
+      },
+      {
+        "time": "2018-02-25T01:59:07.000Z",
+        "duration": 4,
+        "bidprice": 3.1285,
+        "prices": [
+          3.1284,
+          3.2338
+        ],
+        "terminated": true
+      },
+      {
+        "time": "2018-02-25T02:03:07.000Z",
+        "duration": 4,
+        "bidprice": 3.1285,
+        "prices": [
+          3.1284,
+          3.2338
+        ],
+        "terminated": true
+      },
+      {
+        "time": "2018-02-25T11:03:07.000Z",
+        "duration": 4,
+        "bidprice": 3.2339,
+        "prices": [
+          3.3275
+        ],
+        "terminated": true
+      },
+      {
+        "time": "2018-02-25T12:16:07.000Z",
         "duration": 4,
         "bidprice": 3.2339,
         "prices": [
@@ -693,7 +609,18 @@
         "terminated": true
       },
       {
-        "time": "2018-02-25T16:44:07.000Z",
+        "time": "2018-02-25T13:48:07.000Z",
+        "duration": 4,
+        "bidprice": 3.2339,
+        "prices": [
+          3.3275,
+          3.4401,
+          3.4401
+        ],
+        "terminated": true
+      },
+      {
+        "time": "2018-02-25T17:24:07.000Z",
         "duration": 4,
         "bidprice": 3.4402,
         "prices": [
@@ -702,17 +629,7 @@
         "terminated": false
       },
       {
-        "time": "2018-02-25T18:51:07.000Z",
-        "duration": 4,
-        "bidprice": 3.4402,
-        "prices": [
-          3.4401,
-          3.5571
-        ],
-        "terminated": true
-      },
-      {
-        "time": "2018-02-26T05:23:07.000Z",
+        "time": "2018-02-26T01:55:07.000Z",
         "duration": 4,
         "bidprice": 3.4402,
         "prices": [
@@ -722,7 +639,27 @@
         "terminated": true
       },
       {
-        "time": "2018-02-26T12:33:07.000Z",
+        "time": "2018-02-26T06:59:07.000Z",
+        "duration": 4,
+        "bidprice": 3.5572,
+        "prices": [
+          3.6523,
+          3.7841
+        ],
+        "terminated": true
+      },
+      {
+        "time": "2018-02-26T10:24:07.000Z",
+        "duration": 4,
+        "bidprice": 3.5572,
+        "prices": [
+          3.6523,
+          3.7841
+        ],
+        "terminated": true
+      },
+      {
+        "time": "2018-02-26T14:00:07.000Z",
         "duration": 4,
         "bidprice": 3.6524,
         "prices": [
@@ -731,27 +668,7 @@
         "terminated": true
       },
       {
-        "time": "2018-02-26T17:18:07.000Z",
-        "duration": 4,
-        "bidprice": 3.6524,
-        "prices": [
-          3.7841,
-          3.9129
-        ],
-        "terminated": true
-      },
-      {
-        "time": "2018-02-26T23:32:07.000Z",
-        "duration": 4,
-        "bidprice": 3.7842,
-        "prices": [
-          3.9129,
-          4.0176
-        ],
-        "terminated": true
-      },
-      {
-        "time": "2018-02-27T09:32:07.000Z",
+        "time": "2018-02-27T08:49:07.000Z",
         "duration": 4,
         "bidprice": 4.0177,
         "prices": [
@@ -761,45 +678,64 @@
         "terminated": true
       },
       {
-        "time": "2018-02-27T10:04:07.000Z",
+        "time": "2018-02-28T05:36:07.000Z",
         "duration": 4,
-        "bidprice": 4.0177,
+        "bidprice": 4.3042,
         "prices": [
-          4.0176,
-          4.1625
+          4.4193,
+          4.5378
         ],
         "terminated": true
       },
       {
-        "time": "2018-02-27T18:27:07.000Z",
+        "time": "2018-02-28T07:11:07.000Z",
         "duration": 4,
-        "bidprice": 4.0177,
+        "bidprice": 4.4194,
         "prices": [
-          4.3041,
-          4.3041
+          4.5378
         ],
         "terminated": true
       },
       {
-        "time": "2018-02-28T20:43:07.000Z",
+        "time": "2018-02-28T07:24:07.000Z",
+        "duration": 4,
+        "bidprice": 4.4194,
+        "prices": [
+          4.5378
+        ],
+        "terminated": true
+      },
+      {
+        "time": "2018-02-28T12:43:07.000Z",
+        "duration": 4,
+        "bidprice": 4.4194,
+        "prices": [
+          4.5378,
+          4.6532
+        ],
+        "terminated": true
+      },
+      {
+        "time": "2018-02-28T14:30:07.000Z",
+        "duration": 4,
+        "bidprice": 4.5379,
+        "prices": [
+          4.6532
+        ],
+        "terminated": true
+      },
+      {
+        "time": "2018-03-01T00:21:07.000Z",
         "duration": 4,
         "bidprice": 4.6533,
         "prices": [
-          4.8057
+          4.8057,
+          4.9916
         ],
         "terminated": true
       },
       {
-        "time": "2018-02-28T22:30:07.000Z",
-        "duration": 4,
-        "bidprice": 4.6533,
-        "prices": [
-          4.8057
-        ],
-        "terminated": true
-      },
-      {
-        "time": "2018-03-01T07:36:07.000Z",
+        "time": "2018-03-01T06:53:07.000Z",
         "duration": 4,
         "bidprice": 4.8058,
         "prices": [
@@ -809,28 +745,53 @@
         "terminated": true
       },
       {
-        "time": "2018-03-02T02:23:07.000Z",
+        "time": "2018-03-01T09:15:07.000Z",
+        "duration": 4,
+        "bidprice": 4.9917,
+        "prices": [
+          5.1185
+        ],
+        "terminated": true
+      },
+      {
+        "time": "2018-03-01T14:45:07.000Z",
+        "duration": 4,
+        "bidprice": 4.9917,
+        "prices": [
+          5.1185,
+          5.2863
+        ],
+        "terminated": true
+      },
+      {
+        "time": "2018-03-01T15:43:07.000Z",
         "duration": 4,
         "bidprice": 5.1186,
         "prices": [
-          5.2863,
-          5.4907,
-          5.4907
+          5.2863
         ],
         "terminated": true
       },
       {
-        "time": "2018-03-02T06:23:07.000Z",
+        "time": "2018-03-01T17:28:07.000Z",
         "duration": 4,
-        "bidprice": 5.2864,
+        "bidprice": 5.1186,
         "prices": [
-          5.4907,
-          5.6305
+          5.2863
         ],
         "terminated": true
       },
       {
-        "time": "2018-03-02T13:53:07.000Z",
+        "time": "2018-03-01T22:47:07.000Z",
+        "duration": 4,
+        "bidprice": 5.1186,
+        "prices": [
+          5.2863
+        ],
+        "terminated": true
+      },
+      {
+        "time": "2018-03-02T12:23:07.000Z",
         "duration": 4,
         "bidprice": 5.4908,
         "prices": [
@@ -840,17 +801,27 @@
         "terminated": true
       },
       {
-        "time": "2018-03-02T17:01:07.000Z",
+        "time": "2018-03-02T14:52:07.000Z",
         "duration": 4,
-        "bidprice": 5.6306,
+        "bidprice": 5.4908,
         "prices": [
-          5.8149,
+          5.6305,
           5.8149
         ],
         "terminated": true
       },
       {
-        "time": "2018-03-03T02:23:07.000Z",
+        "time": "2018-03-02T23:10:07.000Z",
+        "duration": 4,
+        "bidprice": 5.815,
+        "prices": [
+          5.8149,
+          6.0761
+        ],
+        "terminated": true
+      },
+      {
+        "time": "2018-03-03T02:24:07.000Z",
         "duration": 4,
         "bidprice": 5.815,
         "prices": [
@@ -859,7 +830,7 @@
         "terminated": true
       },
       {
-        "time": "2018-03-03T04:17:07.000Z",
+        "time": "2018-03-03T02:43:07.000Z",
         "duration": 4,
         "bidprice": 5.815,
         "prices": [
@@ -868,7 +839,7 @@
         "terminated": true
       },
       {
-        "time": "2018-03-03T04:43:07.000Z",
+        "time": "2018-03-03T05:02:07.000Z",
         "duration": 4,
         "bidprice": 5.815,
         "prices": [
@@ -877,7 +848,16 @@
         "terminated": true
       },
       {
-        "time": "2018-03-03T16:23:07.000Z",
+        "time": "2018-03-03T09:41:07.000Z",
+        "duration": 4,
+        "bidprice": 6.0762,
+        "prices": [
+          6.3731
+        ],
+        "terminated": true
+      },
+      {
+        "time": "2018-03-03T17:09:07.000Z",
         "duration": 4,
         "bidprice": 6.3732,
         "prices": [
@@ -886,7 +866,7 @@
         "terminated": true
       },
       {
-        "time": "2018-03-03T19:18:07.000Z",
+        "time": "2018-03-03T19:55:07.000Z",
         "duration": 4,
         "bidprice": 6.3732,
         "prices": [
@@ -896,81 +876,7 @@
         "terminated": true
       },
       {
-        "time": "2018-03-03T21:24:07.000Z",
-        "duration": 4,
-        "bidprice": 6.3965,
-        "prices": [
-          6.672
-        ],
-        "terminated": true
-      },
-      {
-        "time": "2018-03-03T23:44:07.000Z",
-        "duration": 4,
-        "bidprice": 6.3965,
-        "prices": [
-          6.672,
-          6.672
-        ],
-        "terminated": true
-      },
-      {
-        "time": "2018-03-04T00:29:07.000Z",
-        "duration": 4,
-        "bidprice": 6.3965,
-        "prices": [
-          6.672,
-          6.672
-        ],
-        "terminated": true
-      },
-      {
-        "time": "2018-03-04T10:26:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-04T17:16:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-04T18:49:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-04T21:56:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-04T22:48:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-05T13:11:07.000Z",
+        "time": "2018-03-04T12:36:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -980,7 +886,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-05T19:03:07.000Z",
+        "time": "2018-03-04T13:42:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -990,7 +896,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-06T15:07:07.000Z",
+        "time": "2018-03-05T03:18:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -999,7 +905,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-06T15:56:07.000Z",
+        "time": "2018-03-05T03:20:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1008,17 +914,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-07T01:51:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672,
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-07T09:52:07.000Z",
+        "time": "2018-03-05T05:44:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1027,17 +923,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-07T13:35:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672,
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-08T09:30:07.000Z",
+        "time": "2018-03-05T10:30:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1046,7 +932,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-08T13:14:07.000Z",
+        "time": "2018-03-05T10:49:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1055,25 +941,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-08T16:54:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-08T17:35:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-08T21:26:07.000Z",
+        "time": "2018-03-05T19:50:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1083,7 +951,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-09T18:13:07.000Z",
+        "time": "2018-03-06T00:07:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1092,25 +960,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-09T18:55:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-10T10:48:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-10T18:44:07.000Z",
+        "time": "2018-03-06T09:52:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1120,7 +970,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-10T20:04:07.000Z",
+        "time": "2018-03-06T19:21:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1129,17 +979,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-12T11:32:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672,
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-12T17:19:07.000Z",
+        "time": "2018-03-06T22:40:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1148,7 +988,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-13T03:43:07.000Z",
+        "time": "2018-03-07T10:49:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1157,7 +997,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-13T04:10:07.000Z",
+        "time": "2018-03-07T17:31:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1166,7 +1006,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-13T04:43:07.000Z",
+        "time": "2018-03-08T02:38:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1175,16 +1015,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-13T06:57:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-13T15:22:07.000Z",
+        "time": "2018-03-08T06:21:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1194,34 +1025,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-14T04:54:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-14T09:47:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-14T11:06:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-14T16:08:07.000Z",
+        "time": "2018-03-08T20:11:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1231,7 +1035,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-15T06:05:07.000Z",
+        "time": "2018-03-08T21:34:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1241,7 +1045,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-15T13:59:07.000Z",
+        "time": "2018-03-09T13:39:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1250,7 +1054,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-16T10:25:07.000Z",
+        "time": "2018-03-09T17:15:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1259,7 +1063,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-16T14:09:07.000Z",
+        "time": "2018-03-09T20:32:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1268,70 +1072,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-16T16:19:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-18T03:33:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-18T06:11:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-19T20:05:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-19T21:37:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-20T05:57:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-20T10:13:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-20T11:26:07.000Z",
+        "time": "2018-03-09T21:38:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1341,7 +1082,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-20T11:59:07.000Z",
+        "time": "2018-03-10T03:56:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1351,7 +1092,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-20T17:59:07.000Z",
+        "time": "2018-03-10T13:23:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1360,25 +1101,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-21T02:01:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-21T02:41:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-21T13:54:07.000Z",
+        "time": "2018-03-10T18:06:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1388,7 +1111,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-22T06:15:07.000Z",
+        "time": "2018-03-12T01:37:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1397,43 +1120,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-22T09:38:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-23T00:34:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-23T02:52:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-23T11:50:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-23T16:04:07.000Z",
+        "time": "2018-03-12T11:58:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1443,7 +1130,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-23T23:49:07.000Z",
+        "time": "2018-03-13T17:18:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1452,7 +1139,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-24T08:07:07.000Z",
+        "time": "2018-03-13T19:42:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1461,7 +1148,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-24T11:12:07.000Z",
+        "time": "2018-03-14T04:36:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1470,7 +1157,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-24T14:26:07.000Z",
+        "time": "2018-03-14T16:06:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1480,7 +1167,194 @@
         "terminated": false
       },
       {
-        "time": "2018-03-24T17:42:07.000Z",
+        "time": "2018-03-14T21:24:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-14T23:59:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-15T00:09:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-15T08:08:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672,
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-15T11:15:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-15T18:59:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-15T21:58:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-16T05:24:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672,
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-16T07:09:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672,
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-16T08:31:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672,
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-16T09:03:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672,
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-17T13:46:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-17T20:48:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-19T01:30:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-20T06:47:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-20T23:45:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-23T18:25:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-23T20:07:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-24T14:11:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672,
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-24T16:20:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672,
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-24T16:54:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1491,7 +1365,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-25T00:53:07.000Z",
+        "time": "2018-03-25T12:06:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1500,7 +1374,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-25T03:56:07.000Z",
+        "time": "2018-03-25T15:10:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1509,7 +1383,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-25T05:51:07.000Z",
+        "time": "2018-03-26T01:19:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1518,7 +1392,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-26T03:03:07.000Z",
+        "time": "2018-03-26T04:31:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1527,7 +1401,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-26T05:49:07.000Z",
+        "time": "2018-03-26T07:13:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1536,17 +1410,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-26T13:04:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672,
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-26T22:40:07.000Z",
+        "time": "2018-03-26T08:19:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1555,7 +1419,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-26T22:44:07.000Z",
+        "time": "2018-03-26T23:28:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1564,7 +1428,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-28T01:22:07.000Z",
+        "time": "2018-03-27T02:31:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1573,52 +1437,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-29T08:05:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-29T11:51:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-30T00:07:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-30T01:31:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-30T13:35:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-30T17:20:07.000Z",
+        "time": "2018-03-27T11:29:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1628,7 +1447,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-30T18:55:07.000Z",
+        "time": "2018-03-27T21:15:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1638,16 +1457,7 @@
         "terminated": false
       },
       {
-        "time": "2018-03-31T11:44:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-03-31T17:35:07.000Z",
+        "time": "2018-03-28T15:13:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1657,7 +1467,7 @@
         "terminated": false
       },
       {
-        "time": "2018-04-01T02:22:07.000Z",
+        "time": "2018-03-28T21:55:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1666,7 +1476,7 @@
         "terminated": false
       },
       {
-        "time": "2018-04-02T02:09:07.000Z",
+        "time": "2018-03-28T22:12:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1675,7 +1485,7 @@
         "terminated": false
       },
       {
-        "time": "2018-04-02T11:36:07.000Z",
+        "time": "2018-03-28T23:34:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1684,7 +1494,7 @@
         "terminated": false
       },
       {
-        "time": "2018-04-02T21:46:07.000Z",
+        "time": "2018-03-29T00:08:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1693,17 +1503,7 @@
         "terminated": false
       },
       {
-        "time": "2018-04-03T13:31:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672,
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-04-03T18:17:07.000Z",
+        "time": "2018-03-29T09:46:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1712,17 +1512,7 @@
         "terminated": false
       },
       {
-        "time": "2018-04-03T21:51:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672,
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-04-04T01:10:07.000Z",
+        "time": "2018-03-29T12:36:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1731,7 +1521,7 @@
         "terminated": false
       },
       {
-        "time": "2018-04-04T02:08:07.000Z",
+        "time": "2018-03-30T12:16:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1740,16 +1530,7 @@
         "terminated": false
       },
       {
-        "time": "2018-04-04T02:45:07.000Z",
-        "duration": 4,
-        "bidprice": 6.6721,
-        "prices": [
-          6.672
-        ],
-        "terminated": false
-      },
-      {
-        "time": "2018-04-05T05:54:07.000Z",
+        "time": "2018-03-30T15:41:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1759,7 +1540,43 @@
         "terminated": false
       },
       {
-        "time": "2018-04-05T08:37:07.000Z",
+        "time": "2018-03-30T22:24:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-30T23:50:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-31T01:57:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-31T02:57:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-31T17:39:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1769,7 +1586,17 @@
         "terminated": false
       },
       {
-        "time": "2018-04-05T13:35:07.000Z",
+        "time": "2018-03-31T18:45:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672,
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-03-31T19:50:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1778,7 +1605,7 @@
         "terminated": false
       },
       {
-        "time": "2018-04-05T13:57:07.000Z",
+        "time": "2018-04-01T08:09:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1787,7 +1614,7 @@
         "terminated": false
       },
       {
-        "time": "2018-04-05T14:51:07.000Z",
+        "time": "2018-04-01T09:17:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1796,7 +1623,7 @@
         "terminated": false
       },
       {
-        "time": "2018-04-05T15:26:07.000Z",
+        "time": "2018-04-01T14:02:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1805,7 +1632,17 @@
         "terminated": false
       },
       {
-        "time": "2018-04-05T16:39:07.000Z",
+        "time": "2018-04-01T19:07:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672,
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-02T03:49:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1814,7 +1651,7 @@
         "terminated": false
       },
       {
-        "time": "2018-04-06T01:31:07.000Z",
+        "time": "2018-04-02T10:00:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1823,7 +1660,7 @@
         "terminated": false
       },
       {
-        "time": "2018-04-06T07:40:07.000Z",
+        "time": "2018-04-02T11:16:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1832,7 +1669,7 @@
         "terminated": false
       },
       {
-        "time": "2018-04-06T14:54:07.000Z",
+        "time": "2018-04-02T14:13:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1841,7 +1678,7 @@
         "terminated": false
       },
       {
-        "time": "2018-04-06T15:22:07.000Z",
+        "time": "2018-04-02T16:13:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1850,7 +1687,7 @@
         "terminated": false
       },
       {
-        "time": "2018-04-06T23:50:07.000Z",
+        "time": "2018-04-02T19:20:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1859,7 +1696,181 @@
         "terminated": false
       },
       {
-        "time": "2018-04-07T01:33:07.000Z",
+        "time": "2018-04-02T20:29:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-03T05:13:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-03T05:30:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-03T08:11:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-03T18:41:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-04T06:27:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-04T07:50:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-05T03:30:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-05T06:38:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672,
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-05T17:34:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-06T00:59:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-06T13:24:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672,
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-06T14:08:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672,
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-06T15:19:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-06T18:15:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-06T23:53:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-07T03:03:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-07T04:11:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-07T16:36:07.000Z",
+        "duration": 4,
+        "bidprice": 6.6721,
+        "prices": [
+          6.672
+        ],
+        "terminated": false
+      },
+      {
+        "time": "2018-04-08T01:18:07.000Z",
         "duration": 4,
         "bidprice": 6.6721,
         "prices": [
@@ -1867,6 +1878,18 @@
         ],
         "terminated": false
       }
-    ]
+    ],
+    "args": {
+      "region": "us-east-1",
+      "az": "us-east-1d",
+      "insttype": "x1e.8xlarge",
+      "backlogDays": 30,
+      "samples": 200,
+      "duration": 4,
+      "binpath": "../bin",
+      "quant": 0.6,
+      "conf": 0.01,
+      "outputFile": "output.json"
+    }
   }
 }

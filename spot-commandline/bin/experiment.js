@@ -120,6 +120,8 @@ process.on("uncaughtException", (err) => {
 });
 
 const calculateBidPrice = (pgraph, duration) => {
+  assert(pgraph, "pgraph must not be null or undefined");
+  assert(pgraph.length > 0, "pgraph is expected to have at least 1 entry.");
   for (const row of pgraph) {
     if (row.duration >= duration) {
       return row.price;
@@ -264,7 +266,6 @@ const calculateBidPrice = (pgraph, duration) => {
     console.log("terminations: " + results.terminations);
   } finally {
     db.end();
-    
   }
   
 })()

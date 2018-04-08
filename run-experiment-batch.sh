@@ -75,11 +75,22 @@ REGION=us-west-1
 run_experiment
 
 # Configuration 3
-REGION=us-east-1
-CONF=0.9
-QUANT=0.9
+CONF=0.5
+QUANT=0.975
 SAMPLES=1000
-DURATION=4
+DURATION=16
+
+REGION=us-east-1
+run_experiment
+REGION=us-west-1
+run_experiment
+
+# Configuration 4
+REGION=us-east-1
+CONF=0.01
+QUANT=0.975
+SAMPLES=1000
+DURATION=16
 
 REGION=us-east-1
 run_experiment
