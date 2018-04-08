@@ -1,0 +1,18 @@
+AWS:
+  AccessKeyId: <YOUR ACCESS KEY ID W/SPOT MARKET READ ONLY PERMISSIONS>
+  SecretAccessKey: <SECRET ACCESS KEY>
+  
+PostgreSQL: postgresql://localhost:5432/sip
+
+# In my case, I used a ram disk for this, created with mount-ramdisk on OSX 
+Workdir: /Volumes/sip-processor
+
+Test: 
+  Predict:
+    Region: us-east-1
+    AZ: us-east-1d
+    InstanceType: x1e.8xlarge
+    DateRange: 20180301-20180401
+    BinPath: ../bin
+    Conf: 0.01
+    Quant: 0.975
