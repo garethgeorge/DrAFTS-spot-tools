@@ -28,7 +28,7 @@ describe("Predict", function () {
     az: testConfig.AZ,
     insttype: testConfig.InstanceType,
     daterange: dateRange,
-    binpath: testConfig.BinPath,
+    binpath: config.BinPath,
     bmbp_ts_args: {
       quant: testConfig.Quant,
       conf: testConfig.Conf,
@@ -100,9 +100,5 @@ describe("Predict", function () {
         expect(result.pgraph).to.deep.equal(expectedResult);
       }
     });
-  });
-  
-  after(() => {
-    db.end();
   });
 })

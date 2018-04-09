@@ -2,6 +2,7 @@ const assert = require("assert");
 const child_process = require("child_process");
 const process = require("process");
 const fs = require("async-file");
+const asyncMap = require("../../lib/async-map");
 const path = require("path");
 const promisifyEvent = require("promisify-event");
 const {db, format} = require("../../lib/db");
@@ -89,10 +90,11 @@ async function getPGraph(db, {
 }
 
 
-async function getPGraphForTimes(db, {
+async function getPGraphForTimes(db, args, times=null) {
+  const {
     workdir, region, az, insttype, daterange, binpath,
-    bmbp_ts_args, onResult
-  }, times=null) {
+    bmbp_ts_args, onResult, noExperimental
+  } = args;
   debug("getPGraphForTimes");
   assert(region, "opts.region required.");
   assert(az, "opts.az required");
@@ -109,8 +111,22 @@ async function getPGraphForTimes(db, {
     times = [end]; // just get the pgraph for the last time specified!!! but in reality we can, indeed, do much better :)
   }
 
+  if (noExperimental) {
+    debug("getPGraphForTimes noExperimental option was passed -- breaking up request using asyncMap");
+    // bit of a janky hack but it disables use of the experimental
+    // incremental update feature
+    const argsCopy = _.cloneDeep(args);
+    argsCopy.noExperimental = false;
+    const results = (await asyncMap(times, async (time) => {
+      return await getPGraphForTimes(db, argsCopy, times=[time]);
+    })).map((result) => {
+      return result[0];
+    });
+    return results;
+  }
+  
+
   return await withTempDir(workdir, async (workdir) => {
-    
     const results = []
     let lastTime = start;
     let finalResult = null;
@@ -177,7 +193,7 @@ async function getPGraphForTimes(db, {
       const pgraphData = parsePGraph(
         (await fs.readFile(path.join(workdir, "graph.pgraph"))).toString()
       );
-
+      
       finalResult = {
         interval: {
           start: startInterval,

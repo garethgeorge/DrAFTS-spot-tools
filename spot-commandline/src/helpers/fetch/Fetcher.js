@@ -31,7 +31,7 @@ FROM history
 WHERE az = %L AND ts IN (
   SELECT MAX(ts) 
   FROM history
-  WHERE az = %L AND ts < %L AND insttype = %L
+  WHERE az = %L AND ts <= %L AND insttype = %L
 ) AND insttype = %L
 `
 

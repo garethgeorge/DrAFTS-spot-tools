@@ -4,6 +4,7 @@ const fs = require("async-file");
 const path = require("path");
 const assert = require("assert");
 const Spinner = require('cli-spinner').Spinner;
+const Table = require("cli-table");
 
 const config = require("../src/lib/config");
 const {db, format} = require("../src/lib/db");
@@ -54,6 +55,7 @@ parser.addArgument(
   {
     help: "the path to the bmbp_ts and pred-distribution binaries",
     required: true,
+    defaultValue: config.BinPath,
   }
 );
 
@@ -88,7 +90,7 @@ const args = parser.parseArgs();
   const spinner = new Spinner("generating pgraph file");
   spinner.start();
   
-  const result = await getPGraphForTimes(db, {
+  const result = (await getPGraphForTimes(db, {
     workdir: config.Workdir,
     region: args.region,
     az: args.az,
@@ -99,10 +101,24 @@ const args = parser.parseArgs();
       quant: args.quant,
       conf: args.conf,
     },
-  }, [end]);
+  }, [end]))[0];
   spinner.stop(true);
-  
+
   await fs.writeFile(args.outputFile, JSON.stringify(result, null, 2));
-  
+
+  console.log("pgraph incorporating data from the interval");
+  console.log("\tstart: " + result.interval.start);
+  console.log("\tend: " + result.interval.end);
+
+  console.log("table:");
+  const table = new Table({
+    head: ["Duration", "Price"],
+    colWidths: [20, 20],
+  });
+  for (const datapoint of result.pgraph) {
+    table.push([datapoint.duration, datapoint.price]);
+  }
+  console.log(table.toString());
+
   db.end();  
 })()

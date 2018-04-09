@@ -1,4 +1,5 @@
 function parseTime(str) {
+  if (str.toLowerCase() === "now") return new Date();
   if(!/^(\d){8}$/.test(str)) return "invalid date";
   var y = str.substr(0,4),
       m = str.substr(4,2) - 1,

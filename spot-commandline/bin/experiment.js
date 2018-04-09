@@ -5,6 +5,8 @@ const util = require("util");
 const getRandomInt = util.promisify(require("secure_random").getRandomInt);
 const assert = require("assert");
 const process = require("process");
+const zlib = require("zlib");
+const promisifyEvent = require("promisify-event");
 
 const {db, format} = require("../src/lib/db");
 const {EC2} = require("../src/lib/aws");
@@ -67,6 +69,7 @@ parser.addArgument(
   {
     help: "the path to the bmbp_ts and pred-distribution binaries",
     required: true,
+    defaultValue: config.BinPath
   }
 );
 
@@ -99,10 +102,27 @@ parser.addArgument(
   }
 )
 
+parser.addArgument(
+  ["--pgraphDumpFile"],
+  {
+    help: "The path to the .json.gz file where we should dump the pgraph arrays"
+  }
+)
+
+parser.addArgument(
+  ["--noExperimental"],
+  {
+    help: "disables all experimental features. In this case this means the " + 
+      "incremental state update feature of bmbp_ts in the prediction engine. " +
+      "disabling this will result in substantially slower runtimes. ",
+    action: "storeTrue",
+  }
+)
+
 const args = parser.parseArgs();
 
 process.on("unhandledRejection", (p, reason) => {
-  console.log("last resourt handling of uncaught rejection!");
+  console.log(p);
   const fs = require("fs"); // the real fs library.
   fs.writeFileSync(args.outputFile, JSON.stringify({
     error: `Unhandled rejection: ${p}`
@@ -202,10 +222,24 @@ const calculateBidPrice = (pgraph, duration) => {
       onResult: (result) => {
         completedCount++;
         progressBar.update(completedCount);
-      }
+      },
+      noExperimental: args.noExperimental
     }, times);
     progressBar.stop();
 
+    if (args.pgraphDumpFile) {
+      console.log("writing pgraphs to '" + args.pgraphDumpFile + "'");
+      const output = fs.createWriteStream(args.pgraphDumpFile);
+      const gzip = zlib.createGzip();
+      
+      debug("writing pgraphDumpFile");
+      gzip.pipe(output);
+      gzip.write(JSON.stringify(pgraphArray, false, 2));
+      gzip.end();
+
+      await promisifyEvent(output, "close");
+      debug("done writing it!");
+    }
 
     assert(pgraphArray.length === times.length, "expected pgraphArray.length (" + pgraphArray.length + ") to equal times.length (" + times.length + ")");
     
@@ -229,7 +263,8 @@ const calculateBidPrice = (pgraph, duration) => {
       spotPrices.sort();
 
       // get the pgraph and compute a bid price
-      const correspondingPGraph = pgraphArray[i].pgraph;
+      const pgraphResult = pgraphArray[i];
+      const correspondingPGraph = pgraphResult.pgraph;
       const bidprice = calculateBidPrice(correspondingPGraph, args.duration);
       
       debug("sample #%o", i);
@@ -245,6 +280,10 @@ const calculateBidPrice = (pgraph, duration) => {
 
       if (terminated)
         results.terminations++;
+      
+      assert(times[i].getTime() === pgraphResult.interval.end.getTime(), 
+        "expected times[i].getTime() === pgraphResult.interval.start.getTime(), " + 
+        "but they mismatched " + times[i] + " vs " + pgraphResult.interval.end);
       
       results.samples.push({
         time: times[i],

@@ -6,13 +6,22 @@ PostgreSQL: postgresql://localhost:5432/sip
 
 # In my case, I used a ram disk for this, created with mount-ramdisk on OSX 
 Workdir: /Volumes/sip-processor
+BinPath: ../bin
 
 Test: 
   Predict:
     Region: us-east-1
     AZ: us-east-1d
     InstanceType: x1e.8xlarge
-    DateRange: 20180301-20180401
-    BinPath: ../bin
+    DateRange: 20180301-20180310
     Conf: 0.01
+    Quant: 0.975
+  Experiment:
+    Region: us-east-1
+    AZ: us-east-1d
+    InstanceType: x1e.8xlarge
+    BacklogDays: 10
+    Samples: 30
+    Duration: 4
+    Conf: 0.5
     Quant: 0.975
