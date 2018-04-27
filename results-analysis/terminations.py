@@ -13,10 +13,11 @@ errors = []
 totalTerminations = 0
 withTerminations = 0
 withoutTerminations = 0
+totalExperimentsCount = 0
 
 for root, dirs, files in walk(args.resultsDir):
   for file in files:
-    if '.json' not in file: continue
+    if not file.endswith(".json"): continue 
 
     full_path = path.join(root, file)
     with open(full_path, "r") as f:
@@ -26,8 +27,10 @@ for root, dirs, files in walk(args.resultsDir):
       elif "results" in data:
         theTerminations = data["results"]["terminations"]
         totalTerminations += theTerminations 
+        totalExperimentsCount += len(data["results"]["samples"])
+
         if theTerminations > 0:
-          print("%50s - %4d - SLA: %.4f" % (file, theTerminations, 1-float(theTerminations) / data["results"]["args"]["samples"]))
+          print("%50s - %4d - SLA: %.4f" % (file, theTerminations, 1 - float(theTerminations) / data["results"]["args"]["samples"]))
           withTerminations += 1
         else:
           withoutTerminations += 1
@@ -35,3 +38,8 @@ for root, dirs, files in walk(args.resultsDir):
 print("portion of files with terminations: %d/%d = %.4f" % 
   (withTerminations,(withTerminations+withoutTerminations), 
   float(withTerminations)/(withTerminations+withoutTerminations)))
+
+print("Average SLA quality: (%d/%d) = %.4f" % 
+  (totalTerminations, totalExperimentsCount,
+  1 - float(totalTerminations) / totalExperimentsCount)
+)

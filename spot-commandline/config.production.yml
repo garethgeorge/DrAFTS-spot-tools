@@ -1,0 +1,28 @@
+AWS:
+  AccessKeyId: AKIAIRKHMYUZX6Y3ICRQ
+  SecretAccessKey: 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
+  
+PostgreSQL: postgresql://localhost:5432/sip
+
+Workdir: /Volumes/sip-processor
+
+BinPath: ../bin
+
+Test: 
+  Predict:
+    Region: us-east-1
+    AZ: us-east-1d
+    InstanceType: x1e.8xlarge
+    DateRange: 20180301-20180310
+    BinPath: ../bin
+    Conf: 0.01
+    Quant: 0.975
+  Experiment:
+    Region: us-east-1
+    AZ: us-east-1d
+    InstanceType: x1e.8xlarge
+    BacklogDays: 70
+    Samples: 30
+    Duration: 4
+    Conf: 0.5
+    Quant: 0.975

@@ -1,0 +1,24 @@
+   us-east-1a_m4.xlarge_q0.975-c0.5-d16-x1000.json -   28 - SLA: 0.9720
+  us-east-1a_c5.9xlarge_q0.975-c0.5-d16-x1000.json -   22 - SLA: 0.9780
+  us-east-1a_m5.4xlarge_q0.975-c0.5-d16-x1000.json -   19 - SLA: 0.9810
+  us-east-1a_c4.2xlarge_q0.975-c0.5-d16-x1000.json -   21 - SLA: 0.9790
+ us-east-1a_c5.18xlarge_q0.975-c0.5-d16-x1000.json -   33 - SLA: 0.9670
+ us-east-1a_m4.10xlarge_q0.975-c0.5-d16-x1000.json -   24 - SLA: 0.9760
+   us-east-1a_m5.xlarge_q0.975-c0.5-d16-x1000.json -   13 - SLA: 0.9870
+  us-east-1a_m4.4xlarge_q0.975-c0.5-d16-x1000.json -   17 - SLA: 0.9830
+    us-east-1a_m1.small_q0.975-c0.5-d16-x1000.json -   24 - SLA: 0.9760
+ us-east-1a_r4.16xlarge_q0.975-c0.5-d16-x1000.json -    9 - SLA: 0.9910
+ us-east-1a_p3.16xlarge_q0.975-c0.5-d16-x1000.json -    7 - SLA: 0.9930
+  us-east-1a_m2.4xlarge_q0.975-c0.5-d16-x1000.json -   27 - SLA: 0.9730
+  us-east-1a_m4.2xlarge_q0.975-c0.5-d16-x1000.json -   20 - SLA: 0.9800
+   us-east-1a_m1.medium_q0.975-c0.5-d16-x1000.json -   40 - SLA: 0.9600
+  us-east-1a_c5.4xlarge_q0.975-c0.5-d16-x1000.json -   58 - SLA: 0.9420
+   us-east-1a_c5.xlarge_q0.975-c0.5-d16-x1000.json -   14 - SLA: 0.9860
+  us-east-1a_m2.2xlarge_q0.975-c0.5-d16-x1000.json -    1 - SLA: 0.9990
+  us-east-1a_m5.2xlarge_q0.975-c0.5-d16-x1000.json -   42 - SLA: 0.9580
+  us-east-1a_c4.4xlarge_q0.975-c0.5-d16-x1000.json -   33 - SLA: 0.9670
+ us-east-1a_m4.16xlarge_q0.975-c0.5-d16-x1000.json -    7 - SLA: 0.9930
+   us-east-1a_m2.xlarge_q0.975-c0.5-d16-x1000.json -   41 - SLA: 0.9590
+   us-east-1a_c4.xlarge_q0.975-c0.5-d16-x1000.json -   21 - SLA: 0.9790
+portion of files with terminations: 22/75 = 0.2933
+Average SLA quality: (521/75000) = 0.9931

@@ -1,0 +1,38 @@
+FROM ubuntu:16.04
+
+RUN apt-get update 
+RUN apt-get install build-essential npm -y
+RUN apt-get install m4 wget curl -y
+
+# Using Ubuntu
+RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - && \
+    apt-get install -y nodejs
+RUN apt-get install m4 git tree vim -y
+
+RUN echo "setup drafts command line"
+RUN mkdir -p /drafts/DrAFTS-spot-tools
+
+
+WORKDIR /drafts/
+RUN git clone https://github.com/garethgeorge/sip-processor/
+WORKDIR /drafts/sip-processor/
+RUN cd src/euca-cutils && make 
+RUN cd src/schmib_q && make
+RUN cd src/pred-duration && make 
+RUN cd src/mio && make 
+RUN cd src/spot-predictions && make 
+
+# compile sip-processor
+RUN mkdir -p /drafts/DrAFTS-spot-tools
+COPY ./spot-commandline /drafts/DrAFTS-spot-tools/spot-commandline
+
+RUN rm -rf /drafts/DrAFTS-spot-tools/bin && mkdir -p /drafts/DrAFTS-spot-tools/bin 
+RUN rm -rf /drafts/DrAFTS-spot-tools/spot-commandline/node_modules
+WORKDIR /drafts/DrAFTS-spot-tools/bin 
+RUN cp /drafts/sip-processor/src/schmib_q/bmbp_ts . && \
+    cp /drafts/sip-processor/src/pred-duration/pred-distribution-fast . && \
+    cp /drafts/sip-processor/src/spot-predictions/spot-price-aggregate . 
+
+WORKDIR /drafts/DrAFTS-spot-tools/spot-commandline 
+RUN npm install 
+

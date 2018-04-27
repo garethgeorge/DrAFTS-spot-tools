@@ -1,9 +1,0 @@
-oldest history record is  2018-01-08T14:25:48.000Z
-newest history record is  2018-04-08T12:51:45.000Z
-there are 90 days in the interval between them.
-backlog days is set to 30 so the interval on which we can operate is 60 days
-generated 1000 time's at which we will be sampling.
-computing and pre-caching the pgraph objects for the time range of the experiment.
-running the simulation, and computing pre-mature terminations
-writing results to '../results/q0.975-c0.01-d4-x1000/us-east-1/us-east-1f/us-east-1f_c5.9xlarge_q0.975-c0.01-d4-x1000.json'
-terminations: 19

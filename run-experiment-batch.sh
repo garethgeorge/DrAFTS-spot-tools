@@ -2,7 +2,7 @@
 
 cd spot-commandline
 
-MAX_SUB_PROCESSES=4
+MAX_SUB_PROCESSES=12
 
 get_num_children() {
     bash_pid=$$
@@ -27,6 +27,7 @@ run_experiment() {
             DIR="../results/${PARAMS}/${REGION}/${AZ}"
             BASENAME="${AZ}_${INSTTYPE}_${PARAMS}"
             FILE=$DIR/$BASENAME.json
+            PGRAPHDUMPFILE=$DIR/$BASENAME.pgraph.json.gz
             LOGFILE=$DIR/$BASENAME.log.txt
             mkdir -p $DIR
 
@@ -39,7 +40,8 @@ run_experiment() {
                     --binpath ../bin --conf $CONF \
                     --quant $QUANT --samples $SAMPLES \
                     --duration $DURATION \
-                    --outputFile $FILE > $LOGFILE 2>&1 &
+                    --outputFile $FILE \
+                    --pgraphDumpFile $PGRAPHDUMPFILE > $LOGFILE 2>&1 & 
             fi
             
             get_num_children 
@@ -58,9 +60,9 @@ SAMPLES=1000
 DURATION=4
 
 REGION=us-east-1
-run_experiment
+#run_experiment
 REGION=us-west-1
-run_experiment
+#run_experiment
 
 # Configuration 2
 REGION=us-east-1
@@ -70,9 +72,9 @@ SAMPLES=1000
 DURATION=4
 
 REGION=us-east-1
-run_experiment
+#run_experiment
 REGION=us-west-1
-run_experiment
+#run_experiment
 
 # Configuration 3
 CONF=0.5

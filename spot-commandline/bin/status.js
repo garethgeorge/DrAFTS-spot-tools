@@ -4,6 +4,7 @@ const dateformat = require("dateformat");
 const Table = require("cli-table");
 const _ = require("lodash");
 const process = require("process");
+const path = require("path");
 
 const config = require("../src/lib/config");
 const {db, format} = require("../src/lib/db");
@@ -14,7 +15,6 @@ const parser = new ArgumentParser({
   addHelp: true,
   description: "used to fetch or update the dataset from AWS's servers!"
 });
-
 
 parser.addArgument(
   ["region"], 
@@ -67,11 +67,11 @@ const args = parser.parseArgs();
 
   {
     const results = await db.query(format(`
-    SELECT region, az, date_trunc('day', ts) AS day, COUNT(*) AS count 
-    FROM history 
-    WHERE region = %L
-    GROUP BY region, az, date_trunc('day', ts) 
-    ORDER BY region, az, day;
+      SELECT region, az, date_trunc('day', ts) AS day, COUNT(*) AS count 
+      FROM history 
+      WHERE region = %L
+      GROUP BY region, az, date_trunc('day', ts) 
+      ORDER BY region, az, day;
     `, args.region));
 
     const table = new Table({

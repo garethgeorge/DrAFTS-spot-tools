@@ -1,9 +1,11 @@
 const { Pool } = require('pg');
-// const QueryStream = require('pg-query-stream') // couldn't get this to work :(
 const format = require('pg-format');
 const debug = require('debug')('db');
 
 const config = require('./config');
+
+const Cursor = require("pg-cursor");
+const util = require("util");
 
 class Queryable {
   constructor(queryable) {
@@ -91,6 +93,23 @@ class Database extends Queryable {
     debug("closing down connection pool");
     await this._target.end();
     debug("closed connection pool");
+  }
+
+  async *queryCursor(query) {
+    const client = await this._target.connect();
+    try {
+      const cursor = await client.query(new Cursor(query));
+      const read = util.promisify(cursor.read.bind(cursor));
+      let rows;
+      do {
+        rows = await read(1024);
+        for (const val of rows) {
+          yield val;
+        }
+      } while (rows.length);
+    } finally {
+      client.release();
+    }
   }
 }
 

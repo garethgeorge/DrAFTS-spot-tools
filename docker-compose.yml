@@ -1,0 +1,27 @@
+version: '3.3'
+services:
+  db:
+    container_name: drafts_db
+    restart: on-failure:10
+    image: postgres
+    environment:
+      POSTGRES_USER: drafts
+      POSTGRES_PASSWORD: ""
+    volumes:
+      - ./db_data:/var/lib/postgresql/data
+    ports:
+      - "6000:5432"
+  drafts:
+    container_name: drafts_processor
+    image: thelastpenguin/drafts_processor
+    build:
+      context: ./
+      dockerfile: spot-commandline.Docker
+    command: "tail -f /dev/null"
+    ports:
+      - "3000:3000"
+      - "8080:80"
+    depends_on:
+      - db
+    volumes:
+      - /Users/alpha/Documents/RACELab/price-histoical-data/mnt:/dataset

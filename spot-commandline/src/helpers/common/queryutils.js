@@ -6,7 +6,6 @@ const expect1row = async (promise) => {
   return result.rows[0];
 }
 
-
 module.exports = {
   expect1row
 }

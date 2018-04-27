@@ -240,7 +240,7 @@ const calculateBidPrice = (pgraph, duration) => {
       await promisifyEvent(output, "close");
       debug("done writing it!");
     }
-
+    
     assert(pgraphArray.length === times.length, "expected pgraphArray.length (" + pgraphArray.length + ") to equal times.length (" + times.length + ")");
     
     console.log("running the simulation, and computing pre-mature terminations");

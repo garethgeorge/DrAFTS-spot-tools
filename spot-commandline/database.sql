@@ -1,6 +1,5 @@
--- Use /i <path to this file> to import on your sip database
-
 DROP TABLE predictions;
+
 DROP TABLE history;
 
 CREATE TABLE history (
