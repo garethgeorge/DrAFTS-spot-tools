@@ -24,4 +24,5 @@ services:
     depends_on:
       - db
     volumes:
-      - /Users/alpha/Documents/RACELab/price-histoical-data/mnt:/dataset
+      - ../datasets/Rich-Spot-Historical-Data:/dataset
+      - ./spot-commandline:/drafts/DrAFTS-spot-tools/spot-commandline 

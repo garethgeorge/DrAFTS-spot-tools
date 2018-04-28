@@ -30,12 +30,32 @@ parser.addArgument(
   }
 )
 
+parser.addArgument(
+  ["--full"],
+  {
+    help: "should we print the full status info when in TTY mode",
+    required: false,
+    action: "storeTrue",
+  }
+)
+
 const args = parser.parseArgs();
 
 (async () => {
   // when used as a part of a shell script we get simple, machine readable, output
   if (!process.stdout.isTTY) {
-    if (args.az) {
+    if (args.full) {
+      const results = await db.query(format(`
+        SELECT region, az, date_trunc('day', ts) AS day, COUNT(*) AS count 
+        FROM history 
+        WHERE region = %L
+        GROUP BY region, az, date_trunc('day', ts) 
+        ORDER BY region, az, day;
+      `, args.region));
+      for (const row of results.rows) {
+        console.log([row.region.trim(), row.az.trim(), row.day.toISOString(), row.count].join(','));
+      }
+    } else if (args.az) {
       const results = await db.query(format(`
         SELECT DISTINCT insttype, MIN(spotprice) AS min, MAX(spotprice) AS max, STDDEV(spotprice) AS stddev
         FROM history

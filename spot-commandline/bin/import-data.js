@@ -76,15 +76,23 @@ class BatchInserter {
         `${args.filename}: inserting ${this.queue.length} objects into db, ${this.totalInserted} ` + 
         `objects inserted so far`);
       try {
-        // const chunks = chunk(this.queue, this.bufferSize / 8);
-        await this.db.query(format(this.query, this.queue));
+        const chunks = chunk(this.queue, this.bufferSize / 8);
+
+        const jobs = chunks.map((chunk) => {
+          return async () => {
+            await this.db.query(format(this.query, chunk));
+            console.log("\tinserted chunk of length: " + chunk.length);
+          }
+        });
+        
+        await asyncParallel(jobs);
+
         this.totalInserted += this.queue.length;
       } finally {
         this.queue = []
       }
     }
   }
-
 }
 
 
@@ -106,7 +114,7 @@ async function *streamLineByLine(stream) {
 
 (async () => {
 
-  const batchInserter = new BatchInserter(db, QUERY_INSERT_HISTORY, 16 * 1024);
+  const batchInserter = new BatchInserter(db, QUERY_INSERT_HISTORY, 64 * 1024);
   
   console.log("opening file: " + args.filename);
   // TODO: add code that allows for reading a gzip read stream
@@ -142,4 +150,3 @@ async function *streamLineByLine(stream) {
   await db.end();
   
 })();
-
