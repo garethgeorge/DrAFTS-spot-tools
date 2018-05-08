@@ -49,3 +49,12 @@ ack "\"terminations\""
 # Good Experiment Candidates
  - r4.large
  - 
+
+
+# Misc Notes
+
+**example command for running experiments with an intervals file**
+```
+DEBUG=* node bin/experiment.js us-east-1 us-east-1b r4.16xlarge --binpath ../bin --conf 0.5 --quant 0.75 --samples 2 --duration 48  --includePGraph --intervalsFile /dataset/us-east-1-intervals.csv
+```
+DEBUG=* node bin/experiment.js us-east-1 us-east-1b r4.16xlarge --binpath ../bin --conf 0.5 --quant 0.75 --samples 2 --duration 72-  --includePGraph --intervalsFile /dataset/us-east-1-intervals.csv

@@ -8,7 +8,7 @@ services:
       POSTGRES_USER: drafts
       POSTGRES_PASSWORD: ""
     volumes:
-      - ./db_data:/var/lib/postgresql/data
+      - ~/Coding/RACELab-Data/spot_db:/var/lib/postgresql/data
     ports:
       - "6000:5432"
   drafts:
@@ -24,5 +24,12 @@ services:
     depends_on:
       - db
     volumes:
-      - ../datasets/Rich-Spot-Historical-Data:/dataset
+      - ~/Coding/RACELab-Data/spot_data:/spot_data
       - ./spot-commandline:/drafts/DrAFTS-spot-tools/spot-commandline 
+      - ramdisk:/ramdisk
+      - ./:/tools
+volumes:
+  ramdisk:
+    driver_opts:
+      type: tmpfs
+      device: tmpfs

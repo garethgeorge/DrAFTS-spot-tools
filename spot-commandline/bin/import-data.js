@@ -14,6 +14,7 @@ const {db, format} = require("../src/lib/db");
 const {EC2} = require("../src/lib/aws");
 const Fetcher = require("../src/helpers/fetch/Fetcher");
 const timeutils = require("../src/helpers/common/timeutils");
+const {streamLineByLine} = require("../src/helpers/common/fsutil");
 
 const ArgumentParser = require("argparse").ArgumentParser;
 const parser = new ArgumentParser({
@@ -33,6 +34,22 @@ parser.addArgument(
   }
 )
 
+parser.addArgument(
+  ["--parallelism"],
+  {
+    defaultValue: 4,
+    type: 'int'
+  }
+)
+
+parser.addArgument(
+  ["--batchsize"],
+  {
+    defaultValue: 64 * 1024,
+    type: 'int'
+  }
+)
+
 const args = parser.parseArgs();
 
 const QUERY_INSERT_HISTORY = `
@@ -41,6 +58,10 @@ const QUERY_INSERT_HISTORY = `
   ON CONFLICT (region, az, insttype, ts) DO UPDATE
   SET spotprice = excluded.spotprice;
 `;
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 function chunk (arr, len) {
   var chunks = [],
@@ -76,18 +97,73 @@ class BatchInserter {
         `${args.filename}: inserting ${this.queue.length} objects into db, ${this.totalInserted} ` + 
         `objects inserted so far`);
       try {
-        const chunks = chunk(this.queue, this.bufferSize / 8);
+        const chunks = chunk(this.queue, this.bufferSize / args.parallelism);
 
         const jobs = chunks.map((chunk) => {
           return async () => {
-            await this.db.query(format(this.query, chunk));
+            // this whole horrible mess handles deduplicating the chunk we are trying to insert
+            const chunk_grouped_by_time = {};
+            const deduped_chunk = [];
+            debug("begin dedupeing chunk with %o objects", chunk.length);
+            for (const row of chunk) {
+              const t = row[3].getTime();
+              if (!chunk_grouped_by_time[t]) {
+                chunk_grouped_by_time[t] = [row];
+              } else 
+                chunk_grouped_by_time[t].push(row);
+            }
+            debug("sharded into %o shards", Object.values(chunk_grouped_by_time).length);
+
+            for (const group of Object.values(chunk_grouped_by_time)) {
+              for (let i = 0; i < group.length; ++i) {
+                const rowA = group[i];
+                let matchFound = false;
+                for (let j = i + 1; j < group.length; ++j) {
+                  const rowB = group[j];
+
+                  if (rowA[0] === rowB[0] && rowA[1] === rowB[1] && rowA[2] === rowB[2] ) {
+                    matchFound = true;
+                  }
+                }
+
+                if (!matchFound) {
+                  deduped_chunk.push(rowA);
+                }
+              }
+            }
+            debug("finished dedupe, removed %o rows", chunk.length - deduped_chunk.length);
+            
+            await this.db.query(format(this.query, deduped_chunk));
             console.log("\tinserted chunk of length: " + chunk.length);
+            debug("inserted %o objects", chunk.length);
           }
         });
-        
-        await asyncParallel(jobs);
+
+        try {
+          await asyncParallel(jobs);
+        } catch (e) {
+          console.log("initial insert failed, retrying in serial (no parallelism)");
+          for (const job of jobs) {
+            console.log("\tretrying job with ", job.length, " rows");
+            let success = false;
+            let retryCount = 0;
+            while (!success && retryCount < 8) {
+              retryCount++;
+              try {
+                await job();
+                success = true;
+                break;
+              } catch (e) {
+                console.log("\t\tfailure, retrying: ", e);
+              }
+              await sleep(1000);
+            }
+          }
+        }
 
         this.totalInserted += this.queue.length;
+      } catch (e) {
+        console.log("encountered error: ", e);
       } finally {
         this.queue = []
       }
@@ -95,27 +171,10 @@ class BatchInserter {
   }
 }
 
-
-async function *streamLineByLine(stream) {
-  console.log("trying to iterate stream line by line!");
-  let text = '';
-  for await (let line of stream) {
-    text += line;
-    while (true) {
-      const newLine = text.indexOf('\n');
-      if (newLine !== -1) {
-        yield text.substring(0, newLine);
-      } else
-         break 
-      text = text.substring(newLine + 1);
-    }
-  }
-}
-
 (async () => {
 
-  const batchInserter = new BatchInserter(db, QUERY_INSERT_HISTORY, 64 * 1024);
-  
+  const batchInserter = new BatchInserter(db, QUERY_INSERT_HISTORY, args.batchsize);
+    
   console.log("opening file: " + args.filename);
   // TODO: add code that allows for reading a gzip read stream
   let inputstream = fs.createReadStream(args.filename);
@@ -137,13 +196,14 @@ async function *streamLineByLine(stream) {
     const price = parseFloat(parts[4]);
     const date = new Date(parts[5]);
     
-    if (!az || !instType || !price || !date || date == null) 
+    if (!az || !instType || !price || !date || date === null) 
       continue;
 
     lineCount++;
     await batchInserter.addRow([args.region, az, instType, date, price]);
   }
   console.log(`inserted ${lineCount} records`);
+
   console.log("done.");
   await batchInserter.batchInsert();
   

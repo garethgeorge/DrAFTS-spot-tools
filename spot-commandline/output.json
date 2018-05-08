@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "error": "AssertionError [ERR_ASSERTION]: pgraph is expected to have at least 1 entry."
+    },
+    {
+      "error": "AssertionError [ERR_ASSERTION]: expected pgraphArray.length (248) to equal times.length (250)"
+    }
+  ],
+  "args": {
+    "region": "us-east-1",
+    "az": "us-east-1b",
+    "insttype": "r3.large",
+    "intervalsFile": "/spot_data/us-east-1-intervallist-before-change.txt",
+    "backlogDays": 30,
+    "samples": 250,
+    "duration": 2,
+    "binpath": "../bin",
+    "quant": 0.975,
+    "conf": 0.5,
+    "outputFile": "output.json",
+    "includePGraph": false,
+    "noExperimental": false
+  }
+}

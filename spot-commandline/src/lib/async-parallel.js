@@ -1,17 +1,23 @@
 module.exports = async function(jobs) {
-  return new Promise((accept, rejectAll) => {
+  return new Promise((accept, reject) => {
     let remaining = jobs.length;
+    let error = null;
+
     for (const job of jobs) {
       (async () => {
         try {
           await job();
           remaining--;
-          if (remaining === 0) {
-            accept();
-          }
         } catch (e) {
-          rejectAll();
-          rejectAll = () => {}
+          error = e;
+          remaining--;
+        } finally {
+          if (remaining === 0) {
+            if (!error) {
+              accept();
+            } else
+              reject(error);
+          }
         }
       })();
     }

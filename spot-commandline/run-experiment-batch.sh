@@ -1,8 +1,6 @@
 #! /bin/bash
 
-cd spot-commandline
-
-MAX_SUB_PROCESSES=12
+# MAX_SUB_PROCESSES=12
 
 get_num_children() {
     bash_pid=$$
@@ -24,12 +22,12 @@ run_experiment() {
             echo "Instance type is $INSTTYPE"
             
             PARAMS="q$QUANT-c$CONF-d$DURATION-x$SAMPLES"
-            DIR="../results/${PARAMS}/${REGION}/${AZ}"
+            DIR="${RESULTS_DIR}/${PARAMS}/${REGION}/${AZ}"
             BASENAME="${AZ}_${INSTTYPE}_${PARAMS}"
-            FILE=$DIR/$BASENAME.json
-            PGRAPHDUMPFILE=$DIR/$BASENAME.pgraph.json.gz
-            LOGFILE=$DIR/$BASENAME.log.txt
-            mkdir -p $DIR
+            FILE=${DIR}/${BASENAME}.json
+            PGRAPHDUMPFILE=${DIR}/${BASENAME}.pgraph.json.gz
+            LOGFILE=${DIR}/${BASENAME}.log.txt
+            mkdir -p ${DIR}
 
             if [ -f $FILE ]; then 
                 echo "\t skipping! Results file $FILE already exists."
@@ -44,57 +42,62 @@ run_experiment() {
                     --pgraphDumpFile $PGRAPHDUMPFILE > $LOGFILE 2>&1 & 
             fi
             
-            get_num_children 
-            while [ $num_children -gt $MAX_SUB_PROCESSES ]; do 
-                get_num_children
-                sleep 1
-            done
+            # get_num_children 
+            # while [ $num_children -gt $MAX_SUB_PROCESSES ]; do 
+            #     get_num_children
+            #     sleep 1
+            # done
         done
     done
 }
 
+RESULTS_DIR=../results-intervals
+
+
 # Configuration 1
+
 CONF=0.5
 QUANT=0.975
 SAMPLES=1000
-DURATION=4
+DURATION=720
+INTERVALSFILE=/dataset/us-east-1-intervals.csv
 
 REGION=us-east-1
-#run_experiment
-REGION=us-west-1
+run_experiment
+# REGION=us-west-1
 #run_experiment
 
 # Configuration 2
-REGION=us-east-1
-CONF=0.01
-QUANT=0.975
-SAMPLES=1000
-DURATION=4
+# REGION=us-east-1
+# CONF=0.01
+# QUANT=0.975
+# SAMPLES=1000
+# DURATION=4
 
-REGION=us-east-1
-#run_experiment
-REGION=us-west-1
-#run_experiment
+# REGION=us-east-1
+# #run_experiment
+# REGION=us-west-1
+# #run_experiment
 
-# Configuration 3
-CONF=0.5
-QUANT=0.975
-SAMPLES=1000
-DURATION=16
+# # Configuration 3
+# CONF=0.5
+# QUANT=0.975
+# SAMPLES=1000
+# DURATION=16
 
-REGION=us-east-1
-run_experiment
-REGION=us-west-1
-run_experiment
+# REGION=us-east-1
+# run_experiment
+# REGION=us-west-1
+# run_experiment
 
-# Configuration 4
-REGION=us-east-1
-CONF=0.01
-QUANT=0.975
-SAMPLES=1000
-DURATION=16
+# # Configuration 4
+# REGION=us-east-1
+# CONF=0.01
+# QUANT=0.975
+# SAMPLES=1000
+# DURATION=16
 
-REGION=us-east-1
-run_experiment
-REGION=us-west-1
-run_experiment
+# REGION=us-east-1
+# run_experiment
+# REGION=us-west-1
+# run_experiment

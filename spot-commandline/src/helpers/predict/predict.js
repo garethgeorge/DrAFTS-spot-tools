@@ -89,7 +89,6 @@ async function getPGraph(db, {
   }); 
 }
 
-
 async function getPGraphForTimes(db, args, times=null) {
   const {
     workdir, region, az, insttype, daterange, binpath,
@@ -112,6 +111,7 @@ async function getPGraphForTimes(db, args, times=null) {
   }
 
   if (noExperimental) {
+    console.log("\tno experimental was passed to predict")
     debug("getPGraphForTimes noExperimental option was passed -- breaking up request using asyncMap");
     // bit of a janky hack but it disables use of the experimental
     // incremental update feature
@@ -127,10 +127,16 @@ async function getPGraphForTimes(db, args, times=null) {
   
 
   return await withTempDir(workdir, async (workdir) => {
+    debug("received temporary directory: %o", workdir);
+
     const results = []
     let lastTime = start;
     let finalResult = null;
+    let cycleCount = 0;
+    let skipped = [];
     for (const endInterval of times) {
+      assert((results.length + skipped.length) === cycleCount++);
+
       const startInterval = lastTime;
       lastTime = endInterval;
 
@@ -160,6 +166,11 @@ async function getPGraphForTimes(db, args, times=null) {
 
           results.push(finalResult);
           onResult(finalResult);
+        } else {
+          skipped.push({
+            start: startInterval,
+            end: endInterval,
+          })
         }
         continue;
       }
@@ -193,7 +204,7 @@ async function getPGraphForTimes(db, args, times=null) {
       const pgraphData = parsePGraph(
         (await fs.readFile(path.join(workdir, "graph.pgraph"))).toString()
       );
-      
+
       finalResult = {
         interval: {
           start: startInterval,
@@ -201,7 +212,17 @@ async function getPGraphForTimes(db, args, times=null) {
         },
         pgraph: pgraphData
       }
+
+      for (let i = 0; i < skipped.length; ++i) {
+        results.push({
+          interval: skipped[i], 
+          pgraph: pgraphData,
+        });
+      }
+      skipped = []
+
       results.push(finalResult);
+
       if (onResult)
         onResult(finalResult);
     }
@@ -210,7 +231,118 @@ async function getPGraphForTimes(db, args, times=null) {
   });
 }
 
+async function getPGraphAdv(db, args, times=null) {
+  const {
+    workdir, region, az, insttype, daterange, binpath,
+    bmbp_ts_args, onResult, noExperimental
+  } = args;
+  debug("getPGraphForTimes");
+  assert(region, "opts.region required.");
+  assert(az, "opts.az required");
+  assert(insttype, "opts.insttype required");
+  assert(daterange, "opts.daterange required");
+  assert(binpath, "opts.binpath required");
+  assert(bmbp_ts_args, "opts.bmbp_ts_args required");
+  const {start, end} = daterange;
+  const {quant, conf} = bmbp_ts_args;
+  assert(quant, "opts.bmbp_ts_args.quant required");
+  assert(conf, "opts.bmbp_ts_args.conf required");
+
+  if (!times) {
+    times = [end];
+  }
+
+  return await withTempDir(workdir, async (workdir) => {
+    const pgraphs = [];
+    let lastTime = start;
+
+    for (const time of times) {
+      const start = lastTime;
+      const stop = time;
+      lastTime = time;
+
+      debug("fetching data for interval %o - %o", start, stop);
+      const result = await db.query(format(`
+        SELECT * 
+        FROM history
+        WHERE region = %L AND az = %L AND insttype = %L AND ts >= %L AND ts < %L
+        ORDER BY ts ASC
+      `, region, az, insttype, start, stop));
+      const history = result.rows;
+      debug("got %o records", history.length);
+
+      if (history.length == 0) {
+        debug("\tno new records, skipping this cycle");
+        if (onResult) {
+          onResult(null);
+        }
+        continue ;
+      }
+
+      /*
+        run the predictions
+      */
+      const dataWriteStream = fs.createWriteStream(
+        path.join(workdir, "data.txt"), {
+          flags: 'w',
+        }
+      );
+
+      debug("writing those records to disk");
+      for (const row of history) {
+        const ts = Math.round(row["ts"].getTime() / 1000); // round each timestamp to the nearest second
+        dataWriteStream.write(ts + " " + row["spotprice"].toPrecision(6) + "\n");
+      }
+
+      dataWriteStream.end();
+      await promisifyEvent(dataWriteStream, "close");
+      debug("flushed the data to disk, ready to process data with sip-processor");
+
+      // Now that the data is flushed out to the disk, we are ready to process it
+      const cmdargs = [
+        "./shellscripts/predict.sh",
+        workdir, binpath,
+        quant, conf,
+        1 - quant, 1 - conf,
+        350 /* bmbp_ts interval param TODO: make this configurable */,];
+      debug("running sh %o", cmdargs);
+      await runExecutableHelper("sh", cmdargs);
+
+      const pgraphData = parsePGraph(
+        (await fs.readFile(path.join(workdir, "graph.pgraph"))).toString()
+      );
+      debug("pgraph contained %o data points", pgraphData.length);
+
+      if (pgraphData.length === 0) {
+        console.log("DUMPING PGRAPH FOR INSPECTION:");
+        console.log((await fs.readFile(path.join(workdir, "graph.pgraph"))).toString())
+        console.log("\n\nDUMPING AGG.txt FOR INSPECTION");
+        console.log((await fs.readFile(path.join(workdir, "agg.txt"))).toString())
+        console.log("\n\nDUMPING PRED.txt FOR INSPECTION");
+        console.log((await fs.readFile(path.join(workdir, "pred.txt"))).toString())
+        continue ;
+      }
+
+      /*
+        done running predictions
+      */
+
+      if (onResult) {
+        onResult(pgraphData);
+      }
+      
+      pgraphs.push({
+        interval: {start, stop},
+        pgraph: pgraphData,
+      });
+    }
+
+    return pgraphs;
+  });
+}
+
 module.exports = {
   getPGraph,
-  getPGraphForTimes
+  getPGraphForTimes,
+  getPGraphAdv,
 }

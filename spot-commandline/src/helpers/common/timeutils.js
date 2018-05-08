@@ -19,7 +19,17 @@ function parseTimeRange(daterange) {
   }
 }
 
+function addToTime(time, days=0, hours=0, minutes=0, seconds=0) {
+  const timeInHours = days * 24 + hours;
+  const timeInMinutes = timeInHours * 60 + minutes;
+  const timeInSeconds = timeInMinutes * 60 + seconds;
+  return new Date(time.getTime() + timeInSeconds * 1000);
+}
+
+
+
 module.exports = {
   parseTime,
-  parseTimeRange,
+  parseTimeRange, 
+  addToTime,
 }

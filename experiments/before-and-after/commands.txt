@@ -1,0 +1,3080 @@
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"
+node bin/experiment-v2.js \
+                    --region $REGION \
+                    --az $AZ \
+                    --insttype $insttype \
+                    --samples $SAMPLES \
+                    --duration $duration \
+                    --conf $CONF \
+                    --quant $QUANT \
+                    --outputFile $OUTPUT_FILE \
+                    --includePGraph \
+                    /spot_data/us-east-1-intervallist-before-change.txt > "$OUTPUT_FILE.log"

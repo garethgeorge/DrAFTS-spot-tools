@@ -24,7 +24,8 @@ WHERE az = %L AND ts IN (
   FROM history
   WHERE az = %L
 )
-`
+`;
+
 const QUERY_GET_SPOTPRICE_FOR_TIME = `
 SELECT * 
 FROM history 
@@ -33,16 +34,21 @@ WHERE az = %L AND ts IN (
   FROM history
   WHERE az = %L AND ts <= %L AND insttype = %L
 ) AND insttype = %L
-`
+`;
 
 const QUERY_INSERT_HISTORY = `
 INSERT INTO history (region, az, insttype, ts, spotprice)
 VALUES %L
 ON CONFLICT (region, az, insttype, ts) DO UPDATE
 SET spotprice = excluded.spotprice;
-`
+`;
 
 
+const QUERY_GET_HISTORY_RECORDS_IN_INTERVAL = `
+SELECT COUNT(*) AS count 
+FROM history 
+WHERE az = %L AND insttype = %L AND ts >= %L and ts < %L
+`;
 
 class Fetcher {
   constructor(db, ec2, azname) {
@@ -77,6 +83,13 @@ class Fetcher {
       format(QUERY_GET_NEWEST_RECORD, this._azname, this._azname)
     )));
   }
+
+  async debugGetHistoryRecordsInInterval(insttype, start, stop) {
+    return (await expect1row(this._db.query(
+      format(QUERY_GET_HISTORY_RECORDS_IN_INTERVAL, this._azname, insttype,  start, stop)
+    ))).count;
+  }
+  
 
   async getSpotPriceForTime(time, insttype) {
     return HistoryRecord.fromQuery(await expect1row(this._db.query(

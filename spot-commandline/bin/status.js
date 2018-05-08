@@ -31,9 +31,9 @@ parser.addArgument(
 )
 
 parser.addArgument(
-  ["--full"],
+  ["--machineStatus"],
   {
-    help: "should we print the full status info when in TTY mode",
+    help: "we can use machineStatus to request that the full status regarding region, az, inst_type, record count be printed for every day",
     required: false,
     action: "storeTrue",
   }
@@ -43,17 +43,17 @@ const args = parser.parseArgs();
 
 (async () => {
   // when used as a part of a shell script we get simple, machine readable, output
-  if (!process.stdout.isTTY) {
-    if (args.full) {
+  if (!process.stdout.isTTY || args.machineStatus) {
+    if (args.machineStatus) {
       const results = await db.query(format(`
-        SELECT region, az, date_trunc('day', ts) AS day, COUNT(*) AS count 
+        SELECT region, az, insttype, date_trunc('day', ts) AS day, COUNT(*) AS count 
         FROM history 
         WHERE region = %L
-        GROUP BY region, az, date_trunc('day', ts) 
-        ORDER BY region, az, day;
+        GROUP BY region, az, insttype, date_trunc('day', ts) 
+        ORDER BY region, az, insttype, day;
       `, args.region));
       for (const row of results.rows) {
-        console.log([row.region.trim(), row.az.trim(), row.day.toISOString(), row.count].join(','));
+        console.log([row.region.trim(), row.az.trim(), row.insttype.trim(), row.day.toISOString(), row.count].join(','));
       }
     } else if (args.az) {
       const results = await db.query(format(`
